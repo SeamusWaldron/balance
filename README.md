@@ -1,4 +1,4 @@
-# Balance
+# Balance or Equilibrium Study No. 2
 
 **An equilibrium game inspired by Mondrian**
 
