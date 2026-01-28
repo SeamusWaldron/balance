@@ -6,6 +6,8 @@ Created for the [Gaming Like It's 1930](https://itch.io/jam/gaming-like-its-1930
 
 **[Play Online](https://seamuswaldron.github.io/balance/)** | Open `index.html` locally
 
+![Balance gameplay screenshot](game_play.png)
+
 ---
 
 ## Overview
