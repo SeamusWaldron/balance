@@ -1,82 +1,47 @@
-# Balance Game - Puppeteer Test Suite
+# Balance
 
-This directory contains automated browser testing scripts for the Balance game using Puppeteer.
+**Equilibrium Study No. 2**
 
-## Quick Start
+A meditative game about visual harmony, inspired by Piet Mondrian's *Composition with Red, Blue and Yellow* (1930).
 
-### Prerequisites
-```bash
-npm install puppeteer
-```
+Created for the [Gaming Like It's 1930](https://itch.io/jam/gaming-like-its-1930) game jam, celebrating works entering the public domain in 2026.
 
-### Run Tests
-```bash
-# Basic observation with screenshots
-node test-balance-game.js
+## Play
 
-# Detailed with debug panel extraction
-node test-balance-detailed.js
+Open `index.html` in any modern browser. No installation required.
 
-# Canvas pixel analysis
-node test-balance-canvas.js
+**[Play Online](https://seamuswaldron.github.io/balance/)**
 
-# Comprehensive report
-node test-final-report.js
-```
+## About
 
-## Test Scripts
+Mondrian spent his career seeking perfect balance—the point where a composition achieves stillness. In *Balance*, you inherit that quest.
 
-| Script | Purpose | Output |
-|--------|---------|--------|
-| `test-balance-game.js` | Basic screenshot capture | 5 PNG screenshots |
-| `test-balance-detailed.js` | Extract debug DOM values | Debug metrics + 5 PNG |
-| `test-balance-canvas.js` | Analyze canvas pixels | Color analysis + 5 PNG |
-| `test-final-report.js` | Comprehensive testing | Full report + 5 PNG |
+The canvas drifts toward disorder. Colors carry weight. Lines shift under pressure. Your task is to maintain equilibrium through subtle adjustments, or watch the composition collapse into rigidity.
 
-## Key Findings
+## Controls
 
-- **Balance Score:** Remains constant at 0.00
-- **Visual Changes:** Zero pixel variance across 30 seconds
-- **Drift:** No movement detected
-- **Timer:** Shows 0.0s (not advancing)
-- **Conclusion:** Game displays static content in idle state
+| Action | Input |
+|--------|-------|
+| Move lines | Drag |
+| Split largest rectangle | Space |
+| Merge adjacent same-color rectangles | Double-click |
+| Save composition | S |
+| View gallery | G |
+| Toggle mode | M |
+| Fullscreen | F |
 
-## Documentation
+## Modes
 
-- `TEST-REPORT.md` - Detailed test findings and analysis
-- `TESTING-SUMMARY.md` - Executive summary and recommendations
-- `README.md` - This file
+**Balance** — A meditation on visual weight. The canvas drifts gently, like a mobile turning in still air. There is no urgency, only the slow pull of gravity on pigment.
 
-## Screenshots
+**Equilibrium** — A negotiation with entropy. The canvas resists your arrangements with gathering force. The question is not whether the system will fail, but how long you can hold it together.
 
-All screenshots are 600x600 canvas captures:
-- `frame-at-0s.png` - Initial state
-- `frame-at-10s.png` - After 10 seconds (identical)
-- `frame-at-20s.png` - After 20 seconds (identical)
-- `frame-at-30s.png` - After 30 seconds (identical)
-- `debug-panel-visible.png` - Debug panel enabled
+## The Painting
 
-## Test Execution
+*Composition with Red, Blue and Yellow* (1930) exemplifies Mondrian's Neo-Plasticism: primary colors, black lines, white space, and the pursuit of universal harmony through asymmetrical balance. The painting entered the public domain on January 1, 2026.
 
-Each test takes approximately 35-40 seconds to run (30 second observation + overhead):
-```bash
-time node test-final-report.js
-# Output: real 0m40s, user 0m5s, sys 0m2s
-```
+## Credits
 
-## Browser Automation Best Practices Used
+Game by Seamus Waldron, 2026
 
-✓ Proper async/await patterns
-✓ Viewport configuration for consistency
-✓ Timeout management
-✓ Resource cleanup (browser.close())
-✓ Error handling with failure screenshots
-✓ Promise-based timing instead of deprecated waitForTimeout()
-
-## Findings
-
-The game renders correctly but appears to be in a static state. See TEST-REPORT.md for detailed analysis and recommendations for further investigation.
-
----
-Created: 2026-01-25
-Status: Complete
+Inspired by Piet Mondrian (1872-1944)

@@ -1,0 +1,29 @@
+# Project files
+CLAUDE.md
+specification.md
+
+# Dependencies
+node_modules/
+
+# Test files
+*.test.js
+test-*.js
+check-*.js
+
+# Reports and documentation artifacts
+TEST-REPORT.md
+TESTING-SUMMARY.md
+VISUAL-COMPARISON.txt
+INDEX.md
+converation.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
